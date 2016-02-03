@@ -1,7 +1,7 @@
 {
     "name": "mcrumm/arrgh",
     "description": "Fluent projections for arrays and array-like collections.",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
       {
         "name": "Michael Crumm",
