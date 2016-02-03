@@ -1,0 +1,25 @@
+{
+    "name": "mcrumm/arrgh",
+    "description": "Fluent projections for arrays and array-like collections.",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Michael Crumm",
+        "email": "mike@crumm.net"
+      }
+    ],
+    "require": {
+      "php": ">=5.5",
+      "doctrine/collections": "^1.1"
+    },
+    "require-dev": {
+      "crysalead/kahlan": "^2.1"
+    },
+    "autoload": {
+      "psr-4": {"Arrgh\\": "src/"},
+      "files": ["src/functions_helper.php"]
+    },
+    "autoload-dev": {
+      "psr-4": {"Arrgh\\": "spec/"}
+    }
+}
